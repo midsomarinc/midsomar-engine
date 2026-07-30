@@ -1,0 +1,8 @@
+{
+  "name": "midsomar-engine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx opencode serve --port $PORT --cors *"
+  }
+}
