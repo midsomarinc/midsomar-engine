@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "npx opencode serve --port $PORT --cors *"
+    "start": "opencode serve --port $PORT --cors *"
+  },
+  "dependencies": {
+    "opencode-ai": "^1.18.0"
   }
 }
